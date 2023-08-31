@@ -26,7 +26,7 @@ int main() {
     
     Mystring two_stooges = moe + " " + "Larry";     
     two_stooges.display();                               // Moe Larry
-    Mystring three_stooges = moe + " " + larry + " " +  "Curly";
+    Mystring three_stooges = "Howard " + moe + " " + larry + " " +  "Curly";
     three_stooges.display();                            // Moe larry Curly             
 
     return 0;
