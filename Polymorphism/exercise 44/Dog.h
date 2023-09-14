@@ -13,8 +13,8 @@ This file should contain the Lion class and the prototypes for the Lion class' m
 class Dog: public Animal {
 public:
     Dog(const std::string& name, int age);
-    std::string get_noise() override;
-    int get_num_legs() override;
+    virtual std::string get_noise() override;
+    virtual int get_num_legs() override;
 };
 
 // Write your code above this line
