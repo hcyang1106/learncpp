@@ -11,6 +11,13 @@ void func(T1 a, T2 b) {
     std::cout << a << " " << b << std::endl;
 }
 
+template <class T>
+void mySwap(T &a, T &b) {
+    T temp = a;
+    a = b;
+    b = temp;
+}
+
 struct Person {
     std::string name;
     int age;
